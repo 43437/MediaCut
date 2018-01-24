@@ -1,0 +1,4 @@
+[Project]
+Name=MediaCut
+Manager=KDevCMakeManager
+VersionControl=kdevgit
