@@ -23,5 +23,4 @@ public:
   MediaCut();
   void cut(int64_t begin, int64_t end);
 };
-
 #endif

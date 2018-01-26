@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 2.6)
+
 project(mediacuts)
 
 set(base_dir ${CMAKE_CURRENT_LIST_DIR})
@@ -16,5 +17,3 @@ file(GLOB src_files ${src_dir}/*.cpp)
 add_executable(mediacuts ${src_files})
 
 target_link_libraries(mediacuts avformat avcodec avutil)
-
-#install(TARGETS mediacuts RUNTIME DESTINATION bin)
